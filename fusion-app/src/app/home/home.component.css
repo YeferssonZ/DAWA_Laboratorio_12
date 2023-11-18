@@ -1,0 +1,88 @@
+.music-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    color: #ddd;
+  }
+  
+  .featured-section, .recommended-section {
+    margin-bottom: 40px;
+  }
+
+  .featured-section h2 {
+    color: #ffd700;
+  }
+  
+  .featured-songs, .recommended-albums {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .song, .album {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente blanco */
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .song:hover, .album:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .song img, .album img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .song h3, .album h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ffd700; /* Color dorado similar al de la barra de navegación */
+  }
+  
+  .song p, .album p {
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+  
+  .recommended-section h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+  }
+  
+  .recommended-albums .album {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .recommended-albums .album:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,72 @@
+.app-container::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.alphacoders.com/131/1311951.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.app-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  transition: background-color 0.5s ease;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ffd700;
+}
+
+.active-link {
+  border-bottom: 2px solid #ffd700;
+}
+
+.content-container {
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffd700;
+}
+
+p {
+  color: #ddd;
+  line-height: 1.6;
+}

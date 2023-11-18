@@ -1,0 +1,40 @@
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 20px; 
+  }
+  
+  .content-container .error-icon {
+    max-width: 350px;
+  }
+  
+  .text-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error-heading {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #ff4d4d;
+  }
+  
+  .error-message {
+    font-size: 1.4em;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
